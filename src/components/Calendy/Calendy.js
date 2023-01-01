@@ -13,7 +13,7 @@ const Calendy = () => {
         </p>
       </div>
       <div className="calendy-calender">
-        <InlineWidget url="" />
+        <InlineWidget url="dd" />
       </div>
     </div>
   );

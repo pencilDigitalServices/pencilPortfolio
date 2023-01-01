@@ -4,6 +4,7 @@ import Brands from '../../components/Section2/Brands'
 import Portfolio from '../../components/Section3/Portfolio'
 import Services from '../../components/Section4/Services'
 import About from '../../components/Section5/About'
+import Testimonial from '../../components/Testimonials/Testimonial'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Brands />
       <Services />
       <Portfolio />
+      <Testimonial/>
       <About />
     </div>
   )

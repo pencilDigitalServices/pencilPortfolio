@@ -6,15 +6,15 @@ function Services() {
     const serviceList = [
       {
         icon: <GiSpiderWeb />,
-        title: "Web Development",
+        title: "Software / Web Development",
       },
       {
         icon: <GiAbstract061 />,
-        title: "Web Designer",
+        title: "Product / Graphic Designs ",
       },
       {
         icon: <GiDiagram />,
-        title: "Consultancy",
+        title: "Content Creation ",
       },
     ];
 
