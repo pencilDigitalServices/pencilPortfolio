@@ -1,6 +1,7 @@
 import "./Navbar.css"
 import {FaDribbble, FaTwitter, FaYoutube} from "react-icons/fa"
 import { Link } from "react-router-dom"
+import pencilLogo from '../../images/logo.png'
 
 
 
@@ -11,8 +12,8 @@ export const socialIcons = [
 ]
 
 export const Logo = (
-    <Link to="/" className="logo" >
-      Pencil
+    <Link to="/"  >
+      <img src={pencilLogo} alt="pencillogo" className="logo"/>
     </Link>
 )
 

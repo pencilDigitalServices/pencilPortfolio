@@ -13,7 +13,7 @@ const Calendy = () => {
         </p>
       </div>
       <div className="calendy-calender">
-        <InlineWidget url="https://calendly.com/tajudeenabdulgafar4/pencil-meet?hide_event_type_details=1&hide_gdpr_banner=1" />
+        <InlineWidget url="" />
       </div>
     </div>
   );
