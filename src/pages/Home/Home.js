@@ -14,7 +14,7 @@ function Home() {
       <Services />
       <Portfolio />
       <Testimonial/>
-      <About />
+    
     </div>
   )
 }
