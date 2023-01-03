@@ -1,7 +1,16 @@
 import React from 'react';
-import './testimonial.css'
+import './testimonial.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import picture1 from '../../../src/images/test2.jpg';
+import picture2 from '../../../src/images/test3.jpg';
+import picture3 from '../../../src/images/test4.jpg';
+import picture4 from '../../../src/images/test5.jpg';
+import picture5 from '../../../src/images/test6.jpg';
+import picture6 from '../../../src/images/test7.jpg';
+import picture7 from '../../../src/images/test8.jpg';
+import picture8 from '../../../src/images/test9.jpg';
+import picture9 from '../../../src/images/test10.jpg';
 export default function Testimonial() {
   return (
     <Carousel
@@ -13,37 +22,129 @@ export default function Testimonial() {
       interval={6100}
     >
       <div>
-        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--0SCWkYwS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/9dhr4cw2s0skgfig8qnw.png" />
+        <img src={picture1} alt="pencil_testimonials" />
         <div className="myCarousel">
-          <h3>Shirley Fultz</h3>
-          <h4>Designer</h4>
+          <h3>Jessica Davis</h3>
+
           <p>
-            It's freeing to be able to catch up on customized news and not be
-            distracted by a social media element on the same site
+            I was blown away by the quality of work produced by this company.
+            Their web development team exceeded all of my expectations and
+            delivered a stunning final product. I highly recommend them for any
+            web development needs.
           </p>
         </div>
       </div>
 
       <div>
-        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--0SCWkYwS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/9dhr4cw2s0skgfig8qnw.png" />
+        <img src={picture2} alt="pencil_testimonials" />
         <div className="myCarousel">
-          <h3>Daniel Keystone</h3>
-          <h4>Designer</h4>
+          <h3>Sarah Taylor</h3>
+
           <p>
-            The simple and intuitive design makes it easy for me use. I highly
-            recommend Fetch to my peers.
+            I was impressed by the level of creativity and attention to detail
+            exhibited by this company. They brought my product ideas to life in
+            a way that exceeded my expectations. I will definitely be working
+            with them again in the future.
           </p>
         </div>
       </div>
 
       <div>
-        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--0SCWkYwS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/9dhr4cw2s0skgfig8qnw.png" />
+        <img src={picture3} alt="pencil_testimonials" />
         <div className="myCarousel">
-          <h3>Theo Sorel</h3>
-          <h4>Designer</h4>
+          <h3>Matthew Anderson</h3>
+
           <p>
-            I enjoy catching up with Fetch on my laptop, or on my phone when I'm
-            on the go!
+            The software development team at this company was top-notch. They
+            were able to take my complex software idea and turn it into a
+            user-friendly, reliable program. I highly recommend them to anyone
+            in need of software development services.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src={picture4} alt="pencil_testimonials" />
+        <div className="myCarousel">
+          <h3>Olivia Johnson</h3>
+
+          <p>
+            I was thoroughly impressed with the customer service and
+            professionalism of this company. They went above and beyond to
+            ensure that my web development project was completed to my
+            satisfaction. I highly recommend them to anyone in need of web
+            development services.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src={picture5} alt="pencil_testimonials" />
+        <div className="myCarousel">
+          <h3>Elizabeth Jones</h3>
+
+          <p>
+            I was thrilled with the level of creativity and innovation displayed
+            by this company. They were able to bring my product ideas to life in
+            a way that was beyond my wildest expectations. I highly recommend
+            them for any product design needs.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src={picture6} alt="pencil_testimonials" />
+        <div className="myCarousel">
+          <h3>Sophia Jones</h3>
+
+          <p>
+            The software development team at this company was incredibly skilled
+            and efficient. They were able to deliver a high-quality product on
+            time and on budget. I highly recommend them for any software
+            development needs.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src={picture7} alt="pencil_testimonials" />
+        <div className="myCarousel">
+          <h3>Abigail Martin</h3>
+
+          <p>
+            I was extremely happy with the web development services provided by
+            this company. They were able to turn my website vision into a
+            reality and exceeded all of my expectations. I highly recommend them
+            to anyone in need of web development services.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src={picture8} alt="pencil_testimonials" />
+        <div className="myCarousel">
+          <h3>Chloe Martin</h3>
+
+          <p>
+            I was very impressed with the level of professionalism and expertise
+            exhibited. They were able to bring my product ideas to life in a way
+            that was beyond my expectations. I highly recommend them for any
+            product design needs.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src={picture9} alt="pencil_testimonials" />
+        <div className="myCarousel">
+          <h3>John Anderson</h3>
+
+          <p>
+            I was thoroughly impressed with the customer service and attention
+            to detail exhibited by this company. They went above and beyond to
+            ensure that my web development project was completed to my
+            satisfaction. I highly recommend them to anyone in need of web
+            development services.
           </p>
         </div>
       </div>
