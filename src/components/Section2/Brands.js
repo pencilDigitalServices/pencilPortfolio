@@ -14,7 +14,7 @@ function Brands() {
   return (
     <div className='brands-container'>
      <div className='brand-heading' >
-        <h2>I am proud to have these amazing brands as my clients</h2>
+        <h2>We are proud to have these amazing brands as our clients</h2>
         <img src={dot} alt='' />
      </div>
      <div className='brand-logo-list'>

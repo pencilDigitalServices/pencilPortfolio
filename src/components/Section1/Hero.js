@@ -26,7 +26,7 @@ export default function Hero() {
             <h5>Clients</h5>
           </div>
           <div className="hero-cards">
-            <h2> From 20</h2>
+            <h2> From</h2>
             <h5>Different Countries</h5>
           </div>
         </div>

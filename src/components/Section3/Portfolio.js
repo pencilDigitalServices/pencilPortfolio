@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <div className='portfolio'>
     <div className='portfolio-container'>
-    <h2>Some of my Works</h2>
+    <h2>Some of our Works</h2>
     <div className='project-section' >
         <PortfolioProjects items={4} />
     </div>

@@ -10,11 +10,19 @@ function Services() {
       },
       {
         icon: <GiAbstract061 />,
-        title: "Web Designer",
+        title: "Web Design",
       },
       {
         icon: <GiDiagram />,
         title: "Consultancy",
+      },
+      {
+        icon: <GiDiagram />,
+        title: "Graphics Design",
+      },
+      {
+        icon: <GiDiagram />,
+        title: "Video Marketing",
       },
     ];
 
