@@ -18,25 +18,28 @@ export const Logo = (
 );
 
 export const navItems = [
-    {
-        name: "Home",
-        id: "/"
-    },
-    {
-        name: "About",
-        id: "/about"
-    },
-    {
-        name: "Projects",
-        id: "/portfolio"
-    },
-    {
-        name: "FAQ's",
-        id: "/faq"
-    },
-    {
-        name: "Appointment",
-        id: "/appointment"
-    }
-
+  {
+    name: "Home",
+    id: "/",
+  },
+  {
+    name: "Clients",
+    id: "#client",
+  },
+  {
+    name: "Services",
+    id: "#service",
+  },
+  {
+    name: "Projects",
+    id: "#portfolio",
+  },
+  {
+    name: "Testimonials",
+    id: "#testmonial",
+  },
+  {
+    name: "Contact Us",
+    id: "#contact",
+  },
 ];

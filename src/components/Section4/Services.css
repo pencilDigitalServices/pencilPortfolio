@@ -5,6 +5,7 @@
     min-height: 500px;
     height: auto;
     margin: 150px auto;
+    width: 70%;
 }
 
 .service-cards-container {
@@ -22,12 +23,6 @@
     transition: 0.4s;
 }
 
-.service-card:hover {
-    border: 2px solid var(--light);
-    border-radius: 0px;
-    padding: 20px;
-    width: 300px;
-}
 
  .service-card {
      display: column;
@@ -39,17 +34,7 @@
      cursor: var(--pointer);
  }
 
-.service-card:hover .service-card-icon {
-    border: 2px solid var(--primary);
-    color: var(--light);
-    transform: scale(2);
-    padding: 20px;
-    opacity: 0.05;
-}
 
-.service-card:hover h3 {
-    display: none;
-}
 
 @media (max-width: 1000px) {
     .service-container{

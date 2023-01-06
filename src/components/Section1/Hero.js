@@ -1,6 +1,6 @@
-import React from "react";
-import "./Hero.css";
-import underline from "../../images/Vector.svg";
+import React from 'react';
+import './Hero.css';
+import underline from '../../images/Vector.svg';
 
 export default function Hero() {
   return (
@@ -9,7 +9,11 @@ export default function Hero() {
         <div className="hero-heading-container">
           <h1 className="hero-heading">
             Your Next Project <span>Done Well</span>
-            <img className="hero-heading-underline" src={underline} alt="line" />
+            <img
+              className="hero-heading-underline"
+              src={underline}
+              alt="line"
+            />
           </h1>
         </div>
         <div className="hero-content-highlights">

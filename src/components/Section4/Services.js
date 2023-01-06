@@ -6,15 +6,15 @@ function Services() {
     const serviceList = [
       {
         icon: <GiSpiderWeb />,
-        title: "Web Development",
+        title: "Software / Web Development",
       },
       {
         icon: <GiAbstract061 />,
-        title: "Web Design",
+        title: "Product / Graphic Designs ",
       },
       {
         icon: <GiDiagram />,
-        title: "Consultancy",
+        title: "Content Creation ",
       },
       {
         icon: <GiDiagram />,
@@ -27,7 +27,7 @@ function Services() {
     ];
 
   return (
-    <div className='service-container'>
+    <div className='service-container' id='service'>
         <h2>Services that we provide</h2>
         <div className='service-cards-container'>
             {serviceList.map(({icon, title}) => (
