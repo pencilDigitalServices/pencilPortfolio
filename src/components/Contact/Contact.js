@@ -52,6 +52,7 @@ function Contact() {
           name="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          required
         />
         <label htmlFor="email">Email </label>
         <input
@@ -61,6 +62,7 @@ function Contact() {
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <label htmlFor="tel">Number </label>
         <input
@@ -79,6 +81,7 @@ function Contact() {
           placeholder="Type Your Message Here"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          required
         ></textarea>
         <button type="submit">Submit</button>
       </form>

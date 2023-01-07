@@ -4,7 +4,6 @@ import './About.css';
 function About() {
   return (
     <div className="about-me-container">
-      
       <div className="about-me-content">
         <p>
           Pencil is dedicated to helping businesses and organizations succeed in
@@ -24,5 +23,4 @@ function About() {
     </div>
   );
 }
-
 export default About;
