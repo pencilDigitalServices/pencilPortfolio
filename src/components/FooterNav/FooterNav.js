@@ -16,7 +16,7 @@ function FooterNav() {
             <div className='footer-socials'>
                 {socialIcons.map((icon) => (
                     // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                    <a className='footer-social-icon' href='#' >
+                    <a className='footer-social-icon' href='https://twitter.com/pencil_digitals' >
                         {icon}
                     </a>
                 ))}
@@ -26,7 +26,7 @@ function FooterNav() {
             {Logo}
         </footer>
         <h6>
-            Copyright @2022 Pencil All rights reserved.
+            Copyright @2023 Pencil All rights reserved.
         </h6>
     </div>
   )

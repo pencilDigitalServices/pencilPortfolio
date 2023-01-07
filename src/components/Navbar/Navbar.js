@@ -6,8 +6,8 @@ import logo from '../../images/Logo.png'
 
 
 export const socialIcons = [
-    <FaYoutube />,
-    <FaDribbble />,
+    // <FaYoutube />,
+    // <FaDribbble />,
     <FaTwitter />
 ]
 

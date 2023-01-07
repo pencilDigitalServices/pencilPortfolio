@@ -41,9 +41,10 @@ export default function Nav() {
       <div className="nav-icon-container">
         {socialIcons.map((icon) => (
           // eslint-disable-next-line jsx-a11y/anchor-is-valid
-          <a className="nav-icon" href="#">
+          <a className="nav-icon" href="https://twitter.com/pencil_digitals">
             {icon}
           </a>
+          
         ))}
       </div>
 
