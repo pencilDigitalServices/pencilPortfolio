@@ -9,3 +9,11 @@
 .logo:hover {
   color: var(--primary);
 }
+
+a {
+  color: var(--light);
+}
+
+a:hover {
+  color: var(--primary);
+}

@@ -1,4 +1,5 @@
-import project1 from "../../images/portfolio/project11.png"
+import project1 from "../../images/portfolio/worthsight.png"
+import omnienergy from "../../images/portfolio/Omnienergy.png";
 import project2 from "../../images/portfolio/project2.png"
 import project3 from "../../images/portfolio/project3.png"
 import project4 from "../../images/portfolio/project4.png"
@@ -17,9 +18,15 @@ import project16 from "../../images/portfolio/project (16).png";
 
 export const portfolioList = [
   {
-    name: "Project1",
+    name: "Worthsight",
     img: project1,
     link: "#",
+  },
+
+  {
+    name: "Omni Energy",
+    img: omnienergy,
+    link: "omnienergy.co",
   },
  
   {

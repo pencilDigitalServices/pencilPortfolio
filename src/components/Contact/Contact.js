@@ -10,13 +10,13 @@ function Contact() {
     const [number, setNumber] = useState("");
     const [message, setMessage] = useState("");
 
-       const Service_ID = "service_cczymmp";
-       const Template_ID = "template_vb4ymlg";
-       const User_ID = "ZWiAblGV_-rj58xIk";
+   const Service_ID = "service_cczymmp";
+   const Template_ID = "template_vb4ymlg";
+   const User_ID = "ZWiAblGV_-rj58xIk";
 
        const handleSubmit = (e) => {
          e.preventDefault();
-         emailjs.sendForm(Service_ID, Template_ID, e.target, User_ID).then(
+         emailjs.sendForm(Service_ID,Template_ID, e.target, User_ID).then(
            (res) => {
              console.log(res);
              Swal.fire({

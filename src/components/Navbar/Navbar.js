@@ -1,15 +1,17 @@
 import "./Navbar.css"
-import {FaDribbble, FaTwitter, FaYoutube} from "react-icons/fa"
+import { FaTwitter} from "react-icons/fa"
 import { Link } from "react-router-dom";
 import logo from '../../images/Logo.png'
 
 
 
 export const socialIcons = [
-    // <FaYoutube />,
-    // <FaDribbble />,
+  // <FaYoutube />,
+  // <FaDribbble />,
+  <a href="https://twitter.com/pencil_digitals" target="_blank" rel="noreferrer">
     <FaTwitter />
-]
+  </a>,
+];
 
 export const Logo = (
   <Link to="/" className="logo">
